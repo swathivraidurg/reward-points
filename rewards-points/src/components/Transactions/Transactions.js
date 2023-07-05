@@ -35,7 +35,7 @@ const Transactions = () => {
     setSort(!sort);
     setTransactionData(sortData);
   };
-
+  /* Use Memo */
   const currentTableData = useMemo(() => {
     const firstPageIndex = (currentPage - 1) * PageSize;
     const lastPageIndex = firstPageIndex + PageSize;
