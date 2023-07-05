@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 12px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+nav {
+  background-color: #333;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  /* This allow us to arrange list items in a row, without using float */
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* Create a style for the first level items */
+nav > ul > li > a {
+  color: #aaa;
+  display: block;
+  line-height: 2em;
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 18px;
+}
+.form-input {
+  margin-top: 20px;
+}
+.login-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.login-label {
+  margin-right: 10px;
+}
